@@ -3,18 +3,18 @@ from setuptools import setup
 setup(
     author='Alex',
     author_email='madest92@mail.com',
-    name='tea-xyz1',
-    version='1.0.4',
+    name='teaxyz',
+    version='0.0.1',
     description='A simple package for https://app.tea.xyz/',
-    url='https://github.com/madest92/tea-xyz1',
+    url='https://github.com/madest92/teaxyz',
     project_urls={
-        'Homepage': 'https://github.com/madest92/tea-xyz1',
-        'Source': 'https://github.com/madest92/tea-xyz1',
+        'Homepage': 'https://github.com/madest92/teaxyz',
+        'Source': 'https://github.com/madest92/teaxyz',
     },
     py_modules=['hello_tea'],
     entry_points={
         'console_scripts': [
-            'hello-tea=hello_tea:hello_tea_func'
+            'hi-tea=hello_tea:hello_tea_xyz'
         ]
     },
     classifiers=[
@@ -23,6 +23,7 @@ setup(
     ],
     python_requires='>=3.6',
     install_requires=[
-        'requests>=2.20.0',
+        'tea-xyz1',
+        'tea-xyz2',
     ],
 )
