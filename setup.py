@@ -11,10 +11,10 @@ setup(
         'Homepage': 'https://github.com/madest92/teaxyz',
         'Source': 'https://github.com/madest92/teaxyz',
     },
-    py_modules=['hello_tea'],
+    py_modules=['hi_tea'],
     entry_points={
         'console_scripts': [
-            'hi-tea=hello_tea:hello_tea_xyz'
+            'hi-tea=hi_tea:hello_tea_xyz'
         ]
     },
     classifiers=[
