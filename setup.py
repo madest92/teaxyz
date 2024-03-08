@@ -5,7 +5,7 @@ setup(
     author_email='example@mail.com',
     name='teaxyz',
     version='0.0.1',
-    description='A simple package for https://app.tea.xyz/',
+    description='A simple package for https://app.tea.xyz/. Example tea-xyz1 - https://github.com/madest92/tea-xyz1 and tea-xyz2 - https://github.com/madest92/tea-xyz2',
     url='https://github.com/madest92/teaxyz',
     project_urls={
         'Homepage': 'https://github.com/madest92/teaxyz',
