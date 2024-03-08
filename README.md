@@ -21,7 +21,7 @@ Testnet https://app.tea.xyz/
 
 
 ## Установка
-1. Импортируем проект на [github](https://github.com/new/import), в качестве клонируемого проекта указываем https://github.com/madest92/teaxyz, проект ОБЯЗАТЕЛЬНО должен быть public
+1. Импортируем проект на [github](https://github.com/new/import), в качестве клонируемого проекта указываем https://github.com/madest92/teaxyz, проект **ОБЯЗАТЕЛЬНО** должен быть *public*
 
 2. Устанавливаем зависимости через pip
 ```
@@ -30,9 +30,9 @@ pip install -r requirements.txt
 
 3. Редактируем файл setup.py
 
-3.1. Заменяем **project_urls, url** на свою ссылку
+ * Заменяем **project_urls, url** на свою ссылку
 
-3.2. ШАГ ТОЛЬКО для третьего проекта. Добавляем в зависимость свои пакеты в **install_requires**
+ * **ШАГ ТОЛЬКО для третьего проекта.** Добавляем в зависимость свои пакеты в **install_requires**
 
 4. Запускаем установку проекта
 ```
