@@ -1,1 +1,3 @@
-requests>=2.20.0
+setuptools
+wheel
+twine

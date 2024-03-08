@@ -1,8 +1,8 @@
 from setuptools import setup
 
 setup(
-    author='Alex',
-    author_email='madest92@mail.com',
+    author='User',
+    author_email='example@mail.com',
     name='teaxyz',
     version='0.0.1',
     description='A simple package for https://app.tea.xyz/',
@@ -25,5 +25,6 @@ setup(
     install_requires=[
         'tea-xyz1',
         'tea-xyz2',
+        # add your projects
     ],
 )
