@@ -56,6 +56,9 @@ pip install -r requirements.txt
 python setup.py sdist
 twine upload dist/*
 ```
+(!) Если у вас не настроен PATH для работы с python, то командой `python -m site` можно узнать в USER_BASE путь до python окружения. В папке bin будет находится утилита.
+
+В моем случае полный путь получился **/home/madest92/.local/bin/twine**
 
 6. Загружаем измения на github, пример из консоли
 ```
