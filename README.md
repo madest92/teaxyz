@@ -15,7 +15,7 @@ Testnet https://app.tea.xyz/
 ## Требования к установке
 0. Быть подписанным на телеграмм канал https://t.me/simplecryptoactivity
 
-1. Иметь установленную версию python не ниже 3.6, скачать можно [тут](https://www.python.org/downloads/)
+1. Иметь установленную версию python не ниже 3.6, скачать можно [тут](https://www.python.org/downloads/) и [пакет pip](https://pip.pypa.io/en/stable/installation/#get-pip-py) для него
 
 2. Нужно быть зарегистрированным на [pipy](https://pypi.org/account/register/), включить двухфакторку
 
